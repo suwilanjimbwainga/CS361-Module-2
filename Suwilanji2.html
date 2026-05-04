@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile — CS 361</title>
+
+  <!-- Week 6 Step 6: Google Fonts — Inter & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- style.css always after fonts -->
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <!-- Week 6 Step 1: Header with gradient + badge -->
+  <header>
+    <div>
+      <h1>Suwilanji Mbwainga</h1>
+      <p>Year 3 Computer Science Student</p>
+    </div>
+    <span class="badge">Available for Projects</span>
+  </header>
+
+  <!-- Week 6 Step 1: Nav with flex, hover border-bottom -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="table.html">Results</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- Week 6 Step 2: Card section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm a Year 3 Computer Science student with a passion for web development
+        and software engineering. I enjoy building projects that solve real-world problems.
+      </p>
+      <p>
+        I am currently exploring full-stack development, machine learning, and cloud computing.
+        I love collaborating with others and continuously learning new technologies.
+      </p>
+
+      <!-- Week 6 Step 3: Profile photo — circular, border, hover scale -->
+      <figure class="profile-figure">
+        <img src=RQND7701.JPG alt="Photo of Suwilanji Mbwainga" width="200" height="200">
+        <figcaption>Suwilanji Mbwainga &mdash; Year 3 CS Student</figcaption>
+      </figure>
+    </section>
+
+    <!-- Week 6 Step 4: Skills as tag badges -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+
+        <li>HTML5</li>
+        <li>C++</li>
+        <li>Video Editing</li>
+        <li>Digital Marketing</li>
+        <li>Responsive Design</li>
+        <li>SQL</li>
+        <li>Graphic Design</li>
+      </ul>
+
+      <h3>Hobbies &amp; Interests</h3>
+      <ul>
+        <li>Coding personal projects</li>
+        <li>Playing Music</li>
+        <li>Reading tech blogs</li>
+        <li>Vlogging</li>
+        <li>Exercising</li>
+      </ul>
+
+      <h3>Top 3 Academic Courses</h3>
+      <ol>
+        <li>Web Development (CS 361)</li>
+        <li>Data Structures &amp; Algorithms</li>
+        <li>Database Systems</li>
+      </ol>
+    </section>
+
+    <!-- Projects card grid -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="card">
+          <h3>Profile Website</h3>
+          <p>A fully responsive personal profile page built with HTML5, CSS3, and Flexbox.</p>
+          <a href="#">View Project &rarr;</a>
+        </article>
+        <article class="card">
+          <h3>Student Registration System</h3>
+          <p>An accessible HTML form with validation for student registration data.</p>
+          <a href="register.html">View Project &rarr;</a>
+        </article>
+        <article class="card">
+          <h3>Results Dashboard</h3>
+          <p>A structured data table displaying module assessment results with semantic HTML.</p>
+          <a href="table.html">View Project &rarr;</a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Aside: Contact & Links -->
+  <aside id="contact">
+    <section>
+      <h2>Contact &amp; Links</h2>
+      <ul>
+        <li><a href="https://github.com/suwilanjimbwainga" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/suwilanjimbwainga" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:suwilanjimbwainga13@gmail.com">Email</a></li>
+      </ul>
+
+      <dl>
+        <dt>Department</dt>
+        <dd>Computer Science</dd>
+
+        <dt>Year of Study</dt>
+        <dd>Year 3</dd>
+
+       <dt>Student ID</dt>
+        <dd>22103203</dd>
+
+        <dt>Programme</dt>
+        <dd>B.Sc. Computer Science</dd>
+      </dl>
+    </section>
+  </aside>
+
+  <footer>
+    <p>Contact: <a href="mailto:suwilanjimbwainga13@gmail.com">suwilanjimbwainga13@gmail.com</a></p>
+    <p>&copy; 2026 Suwilanji Mbwainga &mdash; CS 361 Portfolio</p>
+  </footer>
+
+</body>
+</html>
